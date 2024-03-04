@@ -1,4 +1,4 @@
-### YOU SHOULD RUN ###
+# YOU SHOULD RUN
  2D Platform Game
 
 Définir le jeu :
@@ -19,6 +19,7 @@ Définir le jeu :
 _______________
 
 Objectif du joueur :
+
 	- Le joueur devra atteindre la fin du niveau avec le meilleur temps.
 	- Lorsque le joueur est touché par un ennemi, il meurt et recommence le niveau.
 	- Lorsque le joueur tombe dans l'eau, le joueur ne meurt pas mais réapparaît vers le CheckPoint le plus proche.

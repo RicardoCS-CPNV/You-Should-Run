@@ -60,23 +60,6 @@ public class PlayerMovement : MonoBehaviour
         float characterVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
         animator.SetBool("isClimbing", isClimbing);
-
-        if(rb.velocity.y == 0)
-        {
-            animator.SetBool("isJumping", false);
-            animator.SetBool("isFalling", false);
-        }
-
-        if(rb.velocity.y > 0)
-        {
-            animator.SetBool("isJumping", true);
-        }
-
-        if (rb.velocity.y < 0)
-        {
-            animator.SetBool("isJumping", false);
-            animator.SetBool("isFalling", true);
-        }
     }
 
     void FixedUpdate()

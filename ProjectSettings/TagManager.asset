@@ -3,17 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ReverseControl
+  - FadeSystem
+  - PlayerSpawn
+  - InteractUI
+  - OneWayPlatform
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Props
+  - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Platform
+  - Ladder
   - 
   - 
   - 
